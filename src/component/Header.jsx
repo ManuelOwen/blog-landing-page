@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Header.scss"
-// import headerImage from "../images/bg-pattern-intro-mobile.svg"
+// import headerImage from "../images/logo.svg"
+import logo from "../images/logo.svg"
 
 
 const Header = () => {
@@ -9,10 +10,14 @@ const Header = () => {
       <div className='header'>
         {/* <img className='headimg' src={headerImage} alt="" srcset="" /> */}
          <div className='navbar'>
-          <div className='logo'>
-            <img src="../" alt="" srcset="" />
-          </div>
+        
           <ul>
+            {/* logo */}
+          <div className='logo'>
+            <img className='logo' src={logo} alt="" srcset="" />
+          </div>
+
+
           <li>product</li>
           <li>Company</li>
           <li>Connect</li>

@@ -1,6 +1,6 @@
 .header{
     
-    width: 100%;
+    // width: 100%;
     font-size: 16px;
     
     background-color:red;
@@ -9,6 +9,11 @@
     align-items: center;
     text-align: center;
     padding: 1rem 2rem;
+    border-bottom: 7px solid red;
+
+    .logo{
+        margin-right: auto;
+    }
         .headimg{
             height: 300px;
             width: 300px;
@@ -20,6 +25,7 @@
         list-style: none;
         li{
             margin: 0 1rem;
+            font-size: 20px;
             a{
                 text-decoration: none;
                 color: white;
@@ -61,7 +67,8 @@
         width: 100px;
         height: 40px;
         color: white;
-        border: none;
+        background-color: red;
+        border:1px solid white;
     }
     .start{
         
@@ -77,8 +84,9 @@
         height: 40px;
         border-radius: 7px;
         color: white;
-       
-        border: none;
+        background-color: red;
+        border:1px solid white;
+        
     }
      .learn{
         
@@ -98,5 +106,22 @@
        
 
 
+}
+@media screen and (max-width: 768px) {
+    .header{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 0;
+        .logo{
+            margin: 0;
+        }
+        ul{
+            margin-top: 1rem;
+            li{
+                margin: 0.5rem 0;
+            }
+        }
+    }
+    
 }
 }

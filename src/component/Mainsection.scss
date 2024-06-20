@@ -98,4 +98,26 @@
       }
     }
   }
+  @media screen and (max-width: 768px){
+    .mainsection{
+        padding: 2rem 1rem;
+    }
+    .section-header{
+        margin-bottom: 2rem;
+    }
+    .feature{
+        flex-direction: column;
+        margin-bottom: 2rem;
+        padding: 1rem;
+    }
+    .feature-image{
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+    .section-dark{
+        height: auto;
+        padding: 2rem 1rem;
+    }
+    
+  }
 }
