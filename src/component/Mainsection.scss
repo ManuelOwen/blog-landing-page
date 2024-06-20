@@ -60,6 +60,8 @@
     padding: 4rem 2rem;
     border-radius: 8px;
     height: 450px;
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 200px;
 
     .feature {
       display: flex;
@@ -71,8 +73,11 @@
         flex: 1;
         max-width: 500px;
         margin-right: 2rem;
+        
+        padding-top:-70px;
 
-        img.phone {
+        .phone {
+          // 
           width: 100%;
           filter: brightness(1);
         }

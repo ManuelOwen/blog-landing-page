@@ -10,6 +10,7 @@
     text-align: center;
     padding: 1rem 2rem;
     border-bottom: 7px solid red;
+    border-bottom-left-radius: 100px;
 
     .logo{
         margin-right: auto;
@@ -52,6 +53,7 @@
         align-items: center;
         font-size: 16px;
         font-weight: 700;
+        margin-top: 10px;
     }
     .sign{
         display: flex;
